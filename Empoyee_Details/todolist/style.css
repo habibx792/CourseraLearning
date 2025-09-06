@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 40px;
+  min-height: 500px;
+  width: 1000px;
+  border: 2px solid gray;
+}
+.content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-top: 50px;
+  align-self: center;
+}
+#input {
+  border-color: rgb(243, 123, 24);
+  width: 400px;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+  border-radius: 10px;
+}
+#input:hover {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+#input:focus {
+  border-color: yellow;
+}
+.btnAddTask {
+margin-left: 5px;
+  color: white;
+  border-color: rgb(243, 123, 24);
+  padding: 14px;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  font-weight: 700;
+  /* margin: 5px; */
+  border-radius: 12px;
+  background-color: rgb(243, 123, 24);
+}
+.btnAddTask:hover {
+  border-color: rgb(0, 0, 0);
+}
+.taskContainer {
+  margin-top: 20px;
+  justify-content: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100px;
+  width: 1000px;
+}
+#label {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+.taskDiv {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid gray;
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
+}
+.btnDel {
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 10px;
+  border: 2px solid black;
+ 
+}
+.btnEdit {
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 10px;
+  border: 2px solid black;
+  
+}
+
+.TaskText {
+  border: 2px solid gray;
+  padding: 10px;
+  /* text-align: center; */
+  /* min-width: 600px; */
+  /* margin-right: 10px; */
+}
