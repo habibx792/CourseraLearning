@@ -20,7 +20,6 @@ empoyee_detail.addEventListener("click", () => {
   employeesDetails.innerHTML = total_Emplyee;
 });
 salaryCal.addEventListener("click", () => {
-  let totalSalary = 0;
   const totlaSal = employees.reduce((acc, num) => acc + num.salary, 0);
   const total = document.createElement("p");
   total.innerText = `The Total Salary : ${totlaSal}`;
