@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Simple Interest Calculator</h1>
+        <section class="sect">
+            <div class="input">
+                <label for="amount">Amount :</label>
+                <input type="number"  class="inputVar " id="principal"> <br />
+            </div>
+             <div class="input data">
+                <label for="rate">Rate :</label>
+                <input type="range" title="" id="rate"  class=" rangeValue" min="0" max="100" value="50"> <br />
+                <span class="valuetext"></span>
+            </div>
+            <div class="input">
+                <label for="years">No Of years : </label>
+                <input type="number" id="years" class="inputVar" min="1"> <br />
+            </div>
+             <div class="input">
+                <label for="interest" class="interest">Interest : </label>
+                <span id="result"  class="spanData"> d</span><br>
+            </div>
+            <div class="input btnDiv">
+                <button class="btnCompute">Compute</button>
+            </div>
+        </section>
+    </main>
+
+
+  
+</body>
+
+</html>
